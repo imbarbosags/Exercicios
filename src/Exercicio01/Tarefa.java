@@ -1,3 +1,5 @@
+package Exercicio01;
+
 import java.util.*;
 class Tarefa {
     private String nome;
@@ -20,7 +22,7 @@ class Tarefa {
     // Método toString para imprimir a tarefa
     @Override
     public String toString() {
-        return "Tarefa: " + nome;
+        return "Exercicio01.Tarefa: " + nome;
     }
 
     // Sobrescreva o método equals para comparar tarefas pelo nome

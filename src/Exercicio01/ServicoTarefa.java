@@ -1,3 +1,5 @@
+package Exercicio01;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -16,7 +18,7 @@ public class ServicoTarefa {
         Tarefa novaTarefa = new Tarefa(nome);
         if(!tarefas.contains(novaTarefa)){
             tarefas.add(novaTarefa);
-            System.out.println("Tarefa adicionada com sucssso!");
+            System.out.println("Exercicio01.Tarefa adicionada com sucssso!");
         }else{
             System.out.println("Já existe uma tarefa com esse nome.");
         }
@@ -40,7 +42,7 @@ public class ServicoTarefa {
             Tarefa tarefa = iterator.next();
             if (tarefa.getNome().equals(nome)){
                 iterator.remove();
-                System.out.println("Tarefa removida!");
+                System.out.println("Exercicio01.Tarefa removida!");
                 return;
             }
         }

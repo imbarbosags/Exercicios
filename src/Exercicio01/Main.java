@@ -1,9 +1,11 @@
+package Exercicio01;
+
 import java.util.*;
 
 public class Main {
-    private static final String ADICIONAR_TAREFA = "Adicionar Tarefa";
-    private static final String VISUALIZAR_TAREFA = "Visualizar Tarefa";
-    private static final String REMOVER_TAREFA = "Remover Tarefa";
+    private static final String ADICIONAR_TAREFA = "Adicionar Exercicio01.Tarefa";
+    private static final String VISUALIZAR_TAREFA = "Visualizar Exercicio01.Tarefa";
+    private static final String REMOVER_TAREFA = "Remover Exercicio01.Tarefa";
     private static final String SAIR = "Sair";
 
     public static void main(String[] args) {
@@ -16,9 +18,9 @@ public class Main {
         while (opcao != SAIR){
             //Exibindo o menu
             System.out.println("\nMenu: ");
-            System.out.println("1. Adicionar Tarefa");
-            System.out.println("2. Visualizar Tarefa");
-            System.out.println("3. Remover Tarefa");
+            System.out.println("1. Adicionar Exercicio01.Tarefa");
+            System.out.println("2. Visualizar Exercicio01.Tarefa");
+            System.out.println("3. Remover Exercicio01.Tarefa");
             System.out.println("4. Sair");
             System.out.println("\nEscolha uma opção");
 
