@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class Main {
+public class PositivoNegativoNeutro {
     public static void main(String[] args) {
         String input = JOptionPane.showInputDialog("Digite um número:");
         int numero = Integer.parseInt(input);
